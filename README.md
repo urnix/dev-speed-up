@@ -34,57 +34,59 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ### Navigation 
 #### By App
 	
-* Switching between panels: Alt + F1
-* Switching between tabs: Shift + Cmd + [, Shift + Cmd + ]
+* Switching between panels: `Alt + F1`
+* Switching between tabs:` Shift + Cmd + [`, `Shift + Cmd + ]`
 #### By Files
-* Recent files: Cmd + E
-  * Recent edited files: Shift + Cmd + E
+* Recent files: `Cmd + E`
+  * Recent edited files: `Shift + Cmd + E`
 * Work with bookmarks:
-  * List: Cmd + 2 / Cmd + F3
-  * Add: F3
+  * List:` Cmd + 2` / `Cmd + F3`
+  * Add: `F3`
   * Also personal hotkey can be assigned 
 * Search for everything: Double Shift
-  * Search by files: Shift + Cmd + O
+  * Search by files: `Shift + Cmd + O`
   * Can be found by first letters in file name or path
   * Can be found using `/` for specify folders in path
   * Type `/` in the end to find folder
 #### By Code
-* To next error: F2 / Shift + F2
-* To declaration: Cmd + B
-* To line: Cmd + L
-* Show JSDoc: F1
-* Show signature parameters: Cmd + P
-* Go/Back through history: Alt + Cmd + Arrows
-* To last changes: Shift + Cmd + Backspace
+* To next error: `F2` / `Shift + F2`
+* To declaration: `Cmd + B`
+* To line: `Cmd + L`
+* Show JSDoc: `F1`
+* Show signature parameters: `Cmd + P`
+* Go/Back through history: `Alt + Cmd + Arrows`
+* To last changes: `Shift + Cmd + Backspace`
 ### Search
-* We can select all found substrings: Shift + Cmd + G 
-* Open results of search in Search Panel: Cmd + Enter
+* We can select all found substrings: `Shift + Cmd + G`
+* Open results of search in Search Panel: `Cmd + Enter`
 * Replace all
   * We can save case
   * We can use regexps
 * Добавление папок в игнор индексации
 #### Edit code and Refactoring
-* Move anything: F6
-* Rename anything: Shift + F6 
+* Move anything: `F6`
+* Rename anything: `Shift + F6`
   * We can rename mentioning and comments automatically or not 
-* Extract variable/constant: Alt + Cmd + V 
-* Inline variable/constant: Alt + Cmd + N 
-* Duplicate line or selection: Cmd + D
-* Change Case: Shift + Cmd + U
+* Extract variable/constant: `Alt + Cmd + V`
+* Inline variable/constant: `Alt + Cmd + N`
+* Duplicate line or selection: `Cmd + D`
+* Change Case: `Shift + Cmd + U`
 * Свернуть/развернуть
-* Комментарри одно/многострочные, жс док
-* Перемещение по словам и в начало конец строки (мак)
+* Комментарри одно/многострочные, JSDoc
+* Moving to prev/next word (Mac OS): `Alt + Left` / `Alt + Right`
+* Moving to begin/end of line (Mac OS): `Fn/Cmd + Left` / `Fn/Cmd + Right`
+ конец строки (мак)
 * Suggestions to fix/change anything (лампочка)
   * Alt + Enter (E.g. замена тернарного оператора на if)
-* Surround by code: Alt + Cmd + T
+* Surround by code: `Alt + Cmd + T`
   * Use Emmet in html
-* Перемещение строк вверх/вниз
-* Paste from clipboard history: Shift + Cmd + V
+* Move lines up/down: `Shift + Alt + Up` / `Shift + Alt + Down`
+* Paste from clipboard history: `Shift + Cmd + V`
 * Live templates
   * E.g. вывод лога
 * Multiple selection
-  * Зажимаем Alt и растягиваем выделение на несколько строк
-  * Зажимаем Alt и кликаем - каждый клик добавляет выделение 
+  * Press `Alt` and stretch selection to few lines
+  * Press `Alt` and click - each click adding new selection 
 * Emmet (more here https://en.wikipedia.org/wiki/Emmet_(software))
 * Saving snippets
 ### Work with Git
@@ -102,7 +104,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * Игноры идея/тслинт
 ### Formatting
 * Загрузка кастомного форматирования
-* Clearing unused imports: Ctrl + Alt + O (Or using formatting: Cmd + Alt + L)
+* Clearing unused imports: `Ctrl + Alt + O` (Or using formatting: `Cmd + Alt + L`)
 * Таб 2 спейса
 ### Settings
 * Программа раннего доступа
