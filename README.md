@@ -60,46 +60,49 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * We can select all found substrings: Shift + Cmd + G 
 * Open results of search in Search Panel: Cmd + Enter
 * Replace all
-  * We can save shift
-  * We can use regexpr
+  * We can save case
+  * We can use regexps
 * Добавление папок в игнор индексации
 #### Edit code and Refactoring
-* Перенос и переименование (с изменением смежных)
-* Вынесение/инлайн переменной
-* Дублирование
-* Изменение регистрв
+* Move anything: F6
+* Rename anything: Shift + F6 
+  * We can rename mentioning and comments automatically or not 
+* Extract variable/constant: Alt + Cmd + V 
+* Inline variable/constant: Alt + Cmd + N 
+* Duplicate line or selection: Cmd + D
+* Change Case: Shift + Cmd + U
 * Свернуть/развернуть
 * Комментарри одно/многострочные, жс док
 * Перемещение по словам и в начало конец строки (мак)
-* Предложение исправления (лампочка)
+* Suggestions to fix/change anything (лампочка)
   * Alt + Enter (E.g. замена тернарного оператора на if)
-* Окружение кодом: Alt + Cmd + T
+* Surround by code: Alt + Cmd + T
+  * Use Emmet in html
 * Перемещение строк вверх/вниз
-* Emmet
-* Мульти буфер
-* Живые шаблоны
+* Paste from clipboard history: Shift + Cmd + V
+* Live templates
   * E.g. вывод лога
-* Блочное выделение
+* Multiple selection
   * Зажимаем Alt и растягиваем выделение на несколько строк
-  * Зажимаем Alt и кликаем - каждый клик добавляет выделение
-* Вставка из множественного 
-* Хранение сниппетов
+  * Зажимаем Alt и кликаем - каждый клик добавляет выделение 
+* Emmet (more here https://en.wikipedia.org/wiki/Emmet_(software))
+* Saving snippets
 ### Work with Git
-* Хистори
-* Хитстори файла
+* History
+* History of file
 * Annotations
 * Hotkeys for remote: pull, fetch, push
-* Работа с локалхистори
-* Сравение веток
-* Сравнение файлов
-* Мерж и конфликты
-* Просмотр незакоммиченных
+* Local History
+* Comparing of branches
+* Comparing of files (from different branches or from one)
+* Merge and conflicts
+* Displaying uncommitted files
 ### Code inspections
-* Словари
+* Dictionaries
 * Игноры идея/тслинт
 ### Formatting
 * Загрузка кастомного форматирования
-* Организация импортов
+* Clearing unused imports: Ctrl + Alt + O (Or using formatting: Cmd + Alt + L)
 * Таб 2 спейса
 ### Settings
 * Программа раннего доступа
