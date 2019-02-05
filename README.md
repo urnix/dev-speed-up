@@ -34,29 +34,34 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ### Navigation 
 #### By App
 	
-* Переход в инспекторы и панели: Alt + F1
-* Переход между вкладками: Shift + Cmd + [, Shift + Cmd + ]
+* Switching between panels: Alt + F1
+* Switching between tabs: Shift + Cmd + [, Shift + Cmd + ]
 #### By Files
-* Последние файлы: Cmd + E
-  * Последние измененнные файлы: Shift + Cmd + E
-* Работа с закладками - Список: Cmd + 2 / Cmd + F3, Добавление: F3
-* Поиск по всему: Double Shift
-  * Поиск по файлам: Shift + Cmd + O
-  * Поиск по большим буквам (работает во всех панелях)
-* По папкам: `/`
+* Recent files: Cmd + E
+  * Recent edited files: Shift + Cmd + E
+* Work with bookmarks:
+  * List: Cmd + 2 / Cmd + F3
+  * Add: F3
+  * Also personal hotkey can be assigned 
+* Search for everything: Double Shift
+  * Search by files: Shift + Cmd + O
+  * Can be found by first letters in file name or path
+  * Can be found using `/` for specify folders in path
+  * Type `/` in the end to find folder
 #### By Code
-* По ошибкам: F2 / Shift + F2
-  * Переход/Декларация: Cmd + B
-* К строке: Cmd + L
-* Посмотреть сигнатуру/справку: F1 / Alt + Cmd + P
-* Вперед/назад: Alt + Cmd + Arrows
-* К последним изменениям: Shift + Cmd + Backspace
+* To next error: F2 / Shift + F2
+* To declaration: Cmd + B
+* To line: Cmd + L
+* Show JSDoc: F1
+* Show signature parameters: Cmd + P
+* Go/Back through history: Alt + Cmd + Arrows
+* To last changes: Shift + Cmd + Backspace
 ### Search
-* Поиск множества позиций в файле
-* Поиск в окне поиска / в панели поиска: Enter / Cmd + Enter
-* Автозамена 
-  * C сохранением регистра
-  * C регекспами
+* We can select all found substrings: Shift + Cmd + G 
+* Open results of search in Search Panel: Cmd + Enter
+* Replace all
+  * We can save shift
+  * We can use regexpr
 * Добавление папок в игнор индексации
 #### Edit code and Refactoring
 * Перенос и переименование (с изменением смежных)
