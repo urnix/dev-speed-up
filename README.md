@@ -29,7 +29,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * Screen layout app (e.g. Spectacle App)
 * JetBrains IntelliJ IDEA or WebStorm
 
-## WebStorm Tops
+## WebStorm Tips
 
 ### Navigation 
 #### By App
@@ -39,7 +39,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #### By Files
 * Последние файлы: Cmd + E
   * Последние измененнные файлы: Shift + Cmd + E
-* Pабота с закладками - Список: Cmd + 2 / Cmd + F3, Добавление: F3
+* Работа с закладками - Список: Cmd + 2 / Cmd + F3, Добавление: F3
 * Поиск по всему: Double Shift
   * Поиск по файлам: Shift + Cmd + O
   * Поиск по большим буквам (работает во всех панелях)
@@ -55,8 +55,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * Поиск множества позиций в файле
 * Поиск в окне поиска / в панели поиска: Enter / Cmd + Enter
 * Автозамена 
-  C сохранением регистра
-  C регекспами
+  * C сохранением регистра
+  * C регекспами
 * Добавление папок в игнор индексации
 #### Edit code and Refactoring
 * Перенос и переименование (с изменением смежных)
@@ -73,17 +73,17 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * Emmet
 * Мульти буфер
 * Живые шаблоны
-  вывод лога
+  * E.g. вывод лога
 * Блочное выделение
-**  Растягивание выделения с альт
-**  Клики с альт
-* Вставка из мультибуфера
+  * Зажимаем Alt и растягиваем выделение на несколько строк
+  * Зажимаем Alt и кликаем - каждый клик добавляет выделение
+* Вставка из множественного 
 * Хранение сниппетов
 ### Work with Git
 * Хистори
 * Хитстори файла
-* Аннотации
-* Хоткеи на ремот: пулл, фетч, пуш
+* Annotations
+* Hotkeys for remote: pull, fetch, push
 * Работа с локалхистори
 * Сравение веток
 * Сравнение файлов
@@ -99,22 +99,22 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ### Settings
 * Программа раннего доступа
 * Список хоткеев и настройка хоткеев
-* Экспорт/импорт настроек
-* Внешний вид
-  Отключение вкладок
-  Отключение навигации
-  Цветовые схемы и контрастность
-* Горячие клавиши
-* Длина строки и таб сайз
+* Export/Import settings
+* Appearance
+  * Tabs - turn off
+  * Navigation - turn off
+  * Color schemes and contrasts
+* Hotkeys settings
+* Line length, tabs size
 * Форматирование
-* Спилинг
-  Ручной импорт словарей
+* Spelling
+  * Ручной импорт словарей
     /USERNAME/.WebStorm2018.3/config/options/cachedDictionary.xml
-* Плагины
-* Привязка гита, преттиер, тс, фреймворки - вкладка нод
-* Список игнореных папок
-* Show parameter name hint - off
-* Производительность
-  -Xmx3072m
-  memory indicator
-* Maximum line number in clibpoard
+* Plugins
+* Bind apps: git, Prettier, TypeScript, Frameworks - Node tab
+* Excluded directories list Список игнореных папок
+* `Show parameter name hint` - turn off
+* Performance
+  * -Xmx3072m
+  * memory indicator
+* Maximum line number in clipboard
