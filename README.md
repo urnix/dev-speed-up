@@ -1,7 +1,7 @@
 # Dev Speed Up
 Tips to speed up development in JetBrains WebStorm and not only
 
-# Highly Recommended Software 
+## Highly Recommended Software 
   
 * Homebrew 
 ```
@@ -29,7 +29,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * Screen layout app (e.g. Spectacle App)
 * JetBrains IntelliJ IDEA or WebStorm
 
- WebStorm Tops
+## WebStorm Tops
 
 ### Navigation 
 #### By App
